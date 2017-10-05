@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./barra-do-topo.component.css']
 })
 export class BarraDoTopoComponent implements OnInit {
+  tituloSistema = 'SikoSSP';
 
   constructor() { }
 
