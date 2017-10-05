@@ -9,6 +9,7 @@ import { PaginaInicialComponent } from './pagina-inicial/pagina-inicial.componen
 import { DescricaoComponent } from './descricao/descricao.component';
 import { ConteudoDescricaoComponent } from './descricao/conteudo-descricao/conteudo-descricao.component';
 import {ConteudoDescricaoService} from './descricao/conteudo-descricao/conteudo-descricao.service';
+import { BarraDePesquisaComponent } from './barra-de-pesquisa/barra-de-pesquisa.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {ConteudoDescricaoService} from './descricao/conteudo-descricao/conteudo-
     BarraDoTopoComponent,
     PaginaInicialComponent,
     DescricaoComponent,
-    ConteudoDescricaoComponent
+    ConteudoDescricaoComponent,
+    BarraDePesquisaComponent
   ],
   imports: [
     BrowserModule,
