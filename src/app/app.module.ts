@@ -10,6 +10,7 @@ import { DescricaoComponent } from './descricao/descricao.component';
 import { ConteudoDescricaoComponent } from './descricao/conteudo-descricao/conteudo-descricao.component';
 import {ConteudoDescricaoService} from './descricao/conteudo-descricao/conteudo-descricao.service';
 import { BarraDePesquisaComponent } from './barra-de-pesquisa/barra-de-pesquisa.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BarraDePesquisaComponent } from './barra-de-pesquisa/barra-de-pesquisa.
     PaginaInicialComponent,
     DescricaoComponent,
     ConteudoDescricaoComponent,
-    BarraDePesquisaComponent
+    BarraDePesquisaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
