@@ -13,6 +13,7 @@ import { BarraDePesquisaComponent } from './barra-de-pesquisa/barra-de-pesquisa.
 import { FooterComponent } from './footer/footer.component';
 import { TrabalhosComponent } from './trabalhos/trabalhos.component';
 import { TrabalhoComponent } from './trabalhos/trabalho/trabalho.component';
+import {TrabalhoService} from './trabalhos/trabalho/trabalho.service';
 
 
 @NgModule({
@@ -32,7 +33,10 @@ import { TrabalhoComponent } from './trabalhos/trabalho/trabalho.component';
     BsDropdownModule.forRoot(),
     AppRoutingModule
   ],
-  providers: [ConteudoDescricaoService],
+  providers: [
+    ConteudoDescricaoService,
+    TrabalhoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -10,6 +10,7 @@ export class TrabalhosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
