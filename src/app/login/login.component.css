@@ -1,0 +1,15 @@
+.row{
+  background: #efefef;
+}
+.vertical-center {
+  min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 90vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  background-color: #0d3625;
+}
+.container{
+  background-color: #2a88bd !important;
+  background-color: #fff !important;
+}

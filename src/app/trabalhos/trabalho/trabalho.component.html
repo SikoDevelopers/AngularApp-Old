@@ -4,8 +4,9 @@
       <div class="card-block">
         <h4 class="card-title">{{ trabalho.estudante }}</h4>
         <p class="card-text">{{ trabalho.tema }}</p>
-        <p [ngStyle]="{'font-size':12+'px'}">{{ trabalho.nrPalavras }} palavras e {{ trabalho.nrPaginas }} paginas</p>
-        <p [ngStyle]="{'font-size':10+'px'}">Curo: {{ trabalho.curso }} | Area: {{ trabalho.area }} </p>
+        <p [ngStyle]="{'font-size':10+'px'}">Curo: {{ trabalho.curso | uppercase }} | Area: {{ trabalho.area | uppercase }} </p>
+        <p [ngStyle]="{'font-size':10+'px'}">{{ trabalho.nrPalavras }} palavras | {{ trabalho.nrPaginas }} paginas</p>
+
         <a href="#" class="btn btn-primary">Ler todo o documento</a>
       </div>
     </div>

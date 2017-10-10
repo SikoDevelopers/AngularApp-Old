@@ -1,0 +1,30 @@
+<div class="row" [ngStyle]="{'padding': 20+'px','background-color':'#fff','heiht':100+'%'}">
+  <div class="col">
+    <div class="row">
+      <div class="col">
+        <h1>Trabalhos</h1>
+        <button type="button" class="btn btn-primary float-left" routerLink="/estudante/trabalho/submeter">
+          Submeter documento
+        </button>
+      </div>
+    </div>
+
+    <div class="row" [ngStyle]="{'margin-top':30+'px'}">
+      <div class="col">
+        <h4>Lista de trabalhos</h4>
+        <table class="table">
+          <thead>
+            <th>Tipo de documento</th>
+            <th>Titulo</th>
+            <th>Data de Submissao</th>
+            <th>Status</th>
+            <th>Opcoes</th>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

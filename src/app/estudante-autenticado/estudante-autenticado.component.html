@@ -1,0 +1,12 @@
+<app-barra-do-topo></app-barra-do-topo>
+<app-sidenav></app-sidenav>
+<div [hidden]="!(routa == '/estudante/home')">
+  <app-estudante-pagina-inicial></app-estudante-pagina-inicial>
+</div>
+<div [hidden]="!(routa == '/estudante/trabalho')">
+  <app-estudante-trabalho></app-estudante-trabalho>
+</div>
+<div [hidden]="!(routa == '/estudante/trabalho/submeter')">
+  <app-submeter-trabalho></app-submeter-trabalho>
+</div>
+

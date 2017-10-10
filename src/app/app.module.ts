@@ -14,6 +14,13 @@ import { FooterComponent } from './footer/footer.component';
 import { TrabalhosComponent } from './trabalhos/trabalhos.component';
 import { TrabalhoComponent } from './trabalhos/trabalho/trabalho.component';
 import {TrabalhoService} from './trabalhos/trabalho/trabalho.service';
+import { LoginComponent } from './login/login.component';
+import { LoginFormComponent } from './login/login-form/login-form.component';
+import { EstudanteAutenticadoComponent } from './estudante-autenticado/estudante-autenticado.component';
+import { SidenavComponent } from './estudante-autenticado/sidenav/sidenav.component';
+import { EstudantePaginaInicialComponent } from './estudante-autenticado/estudante-pagina-inicial/estudante-pagina-inicial.component';
+import { EstudanteTrabalhoComponent } from './estudante-autenticado/estudante-trabalho/estudante-trabalho.component';
+import { SubmeterTrabalhoComponent } from './estudante-autenticado/submeter-trabalho/submeter-trabalho.component';
 
 
 @NgModule({
@@ -26,7 +33,14 @@ import {TrabalhoService} from './trabalhos/trabalho/trabalho.service';
     BarraDePesquisaComponent,
     FooterComponent,
     TrabalhosComponent,
-    TrabalhoComponent
+    TrabalhoComponent,
+    LoginComponent,
+    LoginFormComponent,
+    EstudanteAutenticadoComponent,
+    SidenavComponent,
+    EstudantePaginaInicialComponent,
+    EstudanteTrabalhoComponent,
+    SubmeterTrabalhoComponent
   ],
   imports: [
     BrowserModule,
